@@ -9,8 +9,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          {/* <Route path="/" element={<MainPage />} /> */}
+          <Route path="/HW_FE_230411/" element={<MainPage />} />
+          {/* <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="/HW_FE_230411/about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
