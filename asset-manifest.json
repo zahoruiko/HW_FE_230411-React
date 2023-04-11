@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HW_FE_230411/static/css/main.e6c13ad2.css",
+    "main.js": "/HW_FE_230411/static/js/main.8ce4e433.js",
+    "index.html": "/HW_FE_230411/index.html",
+    "main.e6c13ad2.css.map": "/HW_FE_230411/static/css/main.e6c13ad2.css.map",
+    "main.8ce4e433.js.map": "/HW_FE_230411/static/js/main.8ce4e433.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8ce4e433.js"
+  ]
+}
