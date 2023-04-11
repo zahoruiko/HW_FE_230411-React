@@ -1,15 +1,10 @@
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-// import AboutPage from './Components/Pages/AboutPage';
-// import MainPage from './Components/Pages/MainPage';
-// import NotFoundPage from './Components/Pages/NotFoundPage';
-import AppRoutes from './AppRoutes';
-
+import AppRoutes from './Routes/AppRoutes';
 import { AppContext } from './AppContext/AppContext';
 
 function App() {
+  const appInstallFolder = '/HW_FE_230411';
   return (
-    <AppContext.Provider>
+    <AppContext.Provider value={appInstallFolder}>
       <AppRoutes />
     </AppContext.Provider>
   );
