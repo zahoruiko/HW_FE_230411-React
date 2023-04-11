@@ -11,14 +11,13 @@ function AppRoutes() {
   const appInstallFolder = useContext(AppContext);
   const mainPageUrl = appInstallFolder + "/";
   const aboutPageUrl = appInstallFolder + "/about";
-  const notFoundPageUrl = appInstallFolder + "/*";
 
   return (
     <BrowserRouter>
       <Routes>
         <Route path={mainPageUrl} element={<MainPage />} />
         <Route path={aboutPageUrl} element={<AboutPage />} />
-        <Route path={notFoundPageUrl} element={<NotFoundPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );
