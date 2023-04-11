@@ -7,7 +7,7 @@ import NotFoundPage from './Components/Pages/NotFoundPage';
 
 import { AppContext } from './AppContext/AppContext';
 
-function App() {
+function AppRoutes() {
   const appInstallFolder = useContext(AppContext);
   const mainPageUrl = appInstallFolder + "/";
   const aboutPageUrl = appInstallFolder + "/about";
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
