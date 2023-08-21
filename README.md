@@ -1,3 +1,3 @@
 # React router
 
-[App Demo](https://zahoruiko.github.io/HW_FE_230411-React/)
+[Demo page](https://zahoruiko.github.io/HW_FE_230411-React/)
